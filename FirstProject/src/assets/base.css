@@ -1,0 +1,46 @@
+body {
+    min-height: 100vh;
+    transition: color 0.5s, background-color 0.5s;
+    line-height: 1.6;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+      Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .card{
+    margin: 25px 10%;
+    padding: 25px;
+    background-color: #eee;
+    border-radius: 15px;
+  }
+  .card.green, .card.blue button{
+    color: #fff;
+    background: green;
+  }
+  .card.blue, .card.green button{
+    color: #fff;
+    background: #94b8ff;
+  }
+  .card.green p{
+    color: #94b8ff;
+  }
+  .card.blue p{
+    color: green;
+  }
+  button {
+    color: #fff;
+    font-size: large;
+    background: #94b8ff;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    outline: none;
+  }
+  a {
+    font-size: large;
+    color: #ffb803;
+  }
